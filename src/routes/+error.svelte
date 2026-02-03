@@ -1,5 +1,5 @@
 <script>
-    import midguardians from "$lib/assets/TrioConcept1.png";
+    import valerie from "$lib/assets/ValerieConcept1.png";
     import Header from "$lib/components/Header.svelte";
     import { navigateTo } from "$lib/index.js";
 </script>
@@ -10,17 +10,16 @@
     <div class="window" style="margin: 32px; width: 600px">
     <div class="title-bar">
       <div class="title-bar-text">
-        Who We Are
+        404 Error Not Found
       </div>
     </div>
     <div class="window-body">
         <div class="window-flex">
-            <img class="image" src={midguardians}>
-            <p>We are the descendants of the Vinlanders that came to America in the 9th century.  We seek to protect humanity from the children of Loki.  And we will never back down.  Our mission is to expose the truth about this world by any means necessary.
+            <img class="image" src={valerie}>
+            <p>Uh oh!  We weren't able to find that page.  
             <br/>
             <br/>
-            To report an instance of paranormal phenomena, please visit our Contact page.
-            </p>
+            The page you are looking for either doesn't exist or doesn't exist <i>yet.</i>  Please check back later.  Sometimes enemy interference can cause this to happen.</p>
         </div>
         <div class="centered-button-container">
             <button on:click={(event) => navigateTo('/contact')}>Send Report</button>

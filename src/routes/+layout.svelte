@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="stylesheet" href="https://unpkg.com/98.css" />
 </svelte:head>
 
 {@render children()}
