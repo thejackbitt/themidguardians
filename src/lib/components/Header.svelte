@@ -60,4 +60,33 @@
         margin-top: -10px;
         color: white;
     }
+
+    @media screen and (max-width: 465px) {
+        hr.solid {
+            width: 300px;
+        }
+
+        .logo-container {
+            flex-direction: column;
+        }
+
+        .logo-container h1 {
+            font-size: 3.1em;
+        }
+
+        .logo-container h2 {
+            margin-bottom: -15px;
+        }
+
+        .logo-container h3 {
+            align-items: start;
+            margin-top: -15px;
+            justify-content: end;
+        }
+
+        .subhead {
+            margin-top: -45px;
+            text-align: center;
+        }
+    }
 </style>

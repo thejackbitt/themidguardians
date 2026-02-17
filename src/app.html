@@ -45,6 +45,20 @@
         justify-content: center;
         padding: 20px 0px 10px 0px;
     }
+
+	.window-box {
+		width: 600px;
+	}
+
+	@media screen and (max-width: 465px) {
+		.window-flex {
+			flex-direction: column;
+		}
+
+		.window-box {
+			width: 350px;
+		}
+	}
 </style>
 
 <body data-sveltekit-preload-data="hover">

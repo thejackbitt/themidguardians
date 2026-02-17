@@ -7,7 +7,7 @@
 <div class="content">
     <Header/>
 
-    <div class="window" style="margin: 32px; width: 600px">
+    <div class="window window-box" style="margin: 32px;">
     <div class="title-bar">
       <div class="title-bar-text">
         Who We Are
