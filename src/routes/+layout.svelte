@@ -1,8 +1,15 @@
 <script>
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.png';
 
 	let { children } = $props();
 </script>
+
+<style>
+	:global button, :global img {
+		user-select: none;
+		-moz-user-select: none;
+	}
+</style>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
