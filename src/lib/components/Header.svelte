@@ -1,11 +1,13 @@
 <script>
     import {navigateTo} from "$lib/index.js"
+    import img from "$lib/assets/TheMidguardiansWebsiteLogo.png"
 </script>
 
 <div class="logo-container">
-    <h2>The</h2>
+    <!-- <h2>The</h2>
     <h1>Midguardians</h1>
-    <h3>.com</h3>
+    <h3>.com</h3> -->
+    <img style="-webkit-user-drag: none; user-select: none;" src={img} alt="The Midguardians .Com Logo">
 </div>
 <p class="subhead"><i>"What you've seen is only the tip of the iceberg."</i></p>
 <hr class="solid" />
@@ -17,7 +19,6 @@
 </div>
 
 <style>
-
     @font-face {
         font-family: 'Mustasurma';
         src: url('$lib/assets/mustasurma.regular.ttf') format('truetype');
@@ -57,11 +58,17 @@
     }
 
     .subhead {
+        font-family: "Pixelated MS Sans Serif", Arial;
         margin-top: -10px;
         color: white;
     }
 
     @media screen and (max-width: 465px) {
+        img {
+            width: 100%;
+            padding-bottom: 40px;
+        }
+
         hr.solid {
             width: 300px;
         }
