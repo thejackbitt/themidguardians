@@ -15,7 +15,7 @@
     <button on:click={(event) => navigateTo('/')}>Home</button>
     <button on:click={(event) => navigateTo('/archive')}>Archive</button>
     <button on:click={(event) => navigateTo('/gallery')}>Gallery</button>
-    <button on:click={(event) => navigateTo('/contact')}>Contact</button>
+    <button on:click={(event) => navigateTo('/about')}>About</button>
 </div>
 
 <style>

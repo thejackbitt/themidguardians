@@ -1,9 +1,10 @@
 <script>
-    import Header from "$lib/components/Header.svelte";
-    import Archive from "$lib/components/Archive.svelte";
+    import BigIconView from "$lib/components/BigIconView.svelte";
+    import BigIcon from "$lib/components/BigIcon.svelte";
 </script>
 
-<div class="content">
-    <Header/>
-    <Archive/>
-</div>
+<BigIconView>
+    <a href="/archive/background"><BigIcon type="folder" filename="BACKGROUND"/></a>
+    <a href="/archive/enemy"><BigIcon type="folder" filename="ENEMY"/></a>
+    <a href="/archive/operator"><BigIcon type="folder" filename="OPERATOR"/></a>
+</BigIconView>
