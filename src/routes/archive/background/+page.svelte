@@ -5,5 +5,5 @@
 
 <BigIconView>
     <a href="/archive"><BigIcon type="folder" filename="../"/></a>
-    <a href="/archive/background/erikson"><BigIcon type="doc" filename="ERIKSON.DOC"/></a>
+    <!-- <a href="/archive/background/erikson"><BigIcon type="doc" filename="ERIKSON.DOC"/></a> -->
 </BigIconView>

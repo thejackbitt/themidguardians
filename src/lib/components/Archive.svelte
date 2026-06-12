@@ -109,9 +109,9 @@
                         <ul>
                             <details>
                                 <summary class="tree-list tree-child"><a on:click={(event) => openParent(event)} href="/archive/background"><Icon type="folder"/> BACKGROUND</a></summary>
-                                <ul>
+                                <!-- <ul>
                                     <li class="tree-item"><a href="/archive/background/erikson"><Icon type="doc"/> ERIKSON.DOC</a></li>
-                                </ul>
+                                </ul> -->
                             </details>
                             <details>
                                 <summary class="tree-list tree-child"><a on:click={(event) => openParent(event)} href="/archive/enemy"><Icon type="folder"/> ENEMY</a></summary>
@@ -131,7 +131,7 @@
                     </details>
                 </ul>
             </div>
-            <div class="field-border" style="flex: 3; padding: 2px">
+            <div class="field-border" style="flex: 3; padding: 2px; max-height: 500px; overflow: scroll;">
                 <div class="window" style="margin-bottom: 8px; display: flex;">
                         <button on:click={backUrl}><img src={backArrowImg}>Back</button>
                         <button on:click={setUrl}><img src={forwardArrowImg}>Forward</button>
