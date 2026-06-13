@@ -5,6 +5,7 @@
 
     let x = 0;
     let y = 0;
+    let visible = false;
     let hoveringClickable = false;
 
     function update(e) {
@@ -19,6 +20,16 @@
     }
 
     onMount(() => {
+        window.addEventListener("mouseout", (e) => {
+            if (!e.relatedTarget) {
+                visible = false;
+            }
+        });
+
+        window.addEventListener("mouseover", () => {
+            visible = true;
+        });
+
         window.addEventListener("mousemove", update);
 
         return () => {
@@ -27,6 +38,7 @@
     });
 </script>
 
+{#if visible}
 <div
     class="cursor"
     style="
@@ -34,6 +46,7 @@
         background-image: url({hoveringClickable ? hoverImg : cursorImg});
     "
 ></div>
+{/if}
 
 <style>
 :global(html),

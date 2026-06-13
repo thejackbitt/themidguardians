@@ -28,7 +28,7 @@
     <br/>
     <br/>
     Immediately after university, Valerie began working as a researcher for an international
-    organization known as the FOH (or FOH for short).  At first, it was
+    organization known as the International Health Institute  (or IHI for short).  At first, it was
     great.  But eventually, her work seemed less and less relevant to medicine and more to
     reckless experimentation.  One day, she witnessed a secret project involving an 
     unwilling human participant being injected with a black substance.  Before she could report
@@ -40,5 +40,4 @@
     Her custom armor is equipped with energy gauntlets that can be configured as energy shields or wrist-mounted
     blades.  If she puts her fists together, she can meld her two shields into one large force field.  
     Her role on the team is to provide mobile cover while the other operators move up.
-
 </p>

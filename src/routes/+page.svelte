@@ -28,6 +28,43 @@
     .centered-button-container button {
         margin: 8px;
     }
+
+    .show-mobile {
+        display: none;
+    }
+
+    @media screen and (max-width: 465px) {
+        .window-flex {
+            flex-direction: unset;
+            align-items: center;
+        }
+
+        .window-box {
+            margin: 10px;
+        }
+
+        .checkerboard {
+            width: 100%;
+        }
+
+        .hide-mobile {
+            display: none;
+        }
+
+        .show-mobile {
+            display: block;
+            margin-top: -5px;
+            padding: 0px 15px;
+        }
+
+        .show-mobile i {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+    }
 </style>
 
 <div class="content">
@@ -48,10 +85,16 @@
             <p>If you are reading this, it means you managed to break free from the hypnosis.  
             <br/>
             <br/>
+            <span class="hide-mobile">
                 The Naethra <i>really</i>don't want you to view this website because it contains all kinds of
                 information that would destroy their entire system if shown to the public.  Click on one of the buttons below for more information.
+            </span>
             </p> 
         </div>
+        <p class="show-mobile">
+            The Naethra <i>really</i>don't want you to view this website because it contains all kinds of
+            information that would destroy their entire system if shown to the public.  Click on one of the buttons below for more information.
+        </p>
         <div class="centered-button-container">
             <button on:click={(event) => navigateTo('/about')}>Learn More</button>
             <button on:click={(event) => navigateTo('/gallery')}>Read Comic</button>
@@ -59,6 +102,6 @@
         </div>
     </div>
     </div>
-    <img src={checkerboard}/>
+    <img class="checkerboard" src={checkerboard}/>
     <Footer/>
 </div>

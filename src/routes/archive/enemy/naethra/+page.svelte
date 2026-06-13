@@ -28,8 +28,25 @@
     in bulletproof scales that make them nearly invincible.  Some Naethra can
     even directly manipulate human minds through hypnotism.  They are extremely
     dangerous and should be destroyed on sight.
+</p>
+
+    <h3>Methods</h3>
+<p>
+    As far as we know, Naethra are not venomous unlike their snake counterparts.
+    What they do have, however, is Black Atter (Laryngomyotoxin-β).  On several
+    documented incidents, Naethra have been known to intravenously dose their 
+    victims with this toxin.  Black Atter symptoms come in three stages.
+    As the name implies, Laryngomyotoxin-β attacks the vocal chords and 
+    immediately atrophes the muscle tissue therein.  This renders the victim 
+    unable to scream.  The next stage is the stimulation of nociceptors causing
+    a wave of burning sensations.  Finally, the victim is completely paralyzed.
     <br/>
     <br/>
+    In a cruel twist, it does seem as though this toxin is non-lethal or at least,
+    not immediately lethal.  It seems the Naethra use Black Atter to sedate and
+    preserve their victims so they can steal their appearnace through some means.
+    We have yet to recover victims of Black Atter.  Our analysis of this toxin comes 
+    mainly from second-hand accounts taken from recovered witnesses.
 </p>
     <h3>Classes</h3>
 <p>
@@ -75,6 +92,7 @@
 <p>
     Not much is concretely known about their origin but there is a legend that 
     potentially explains how they came to be.  The founders of the Midguardians
-    believed the Naethra to be the children of Loki-- an evil primordial being
-    responsible for the corruption of mankind.  
+    believed the Naethra to be the children of Loki— an evil primordial being
+    responsible for the corruption of mankind.  However, it should be noted
+    that this claim is unsubstantiated.
 </p>
